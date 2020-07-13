@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <title>Tic-Tac-Toe</title>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="nav">
+            <li style="float:left; list-style-type:none;color:white;margin-left:10px;"><img src="download.png" alt="tic" style="width:220px;height:150px;">
+            </li>
+            <li style="float:left; list-style-type:none;color:white;margin-top:20px;margin-left:180px;">
+                <dl style="float:left;font-size:17px; text-shadow: 2px 2px red;list-style-type:none;color:white;margin:30px;">
+                    <dt><q><b> Love Is a Game Of TIC-TAC-TOE, Constantly Waiting For The Next X or O</b></q></dt><br>
+                    <dd style="float:right;">- <i>Lang Leav</i> &#128526;</dd>
+                </dl>
+            </li>
+            <ul>
+
+                <li><a class="active" href="#About">About</a></li>
+                <li><a href="#Rules">Rules</a></li>
+                <li><a href="#StartGame"><button class="button button1">Start</button></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="About">
+            <div class="container">
+                <div class="col-lg-10 mx-auto">
+                    <div class="divison">
+                        <a href="#StartGame" style="text-decoration:none; color:black;">
+                            <center>Start Game</center>
+                        </a>
+                    </div><br>
+                    <h2>About</h2>
+                    <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">
+                        <img src="download.jfif" alt="Tic-tac-toe" style="float:right;width:200px;height:200px;"></a><br>
+                    <p>Tic-tac-toe (American English), noughts and crosses (British English), or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.</p>
+                    <p> The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.</p>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Rules">
+            <div class="container">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Rules</h2><br>
+
+                    <img src="imag.jfif" alt="Tic-tac-toe" style="float:right;width:200px;height:200px;">
+                    <p>The game is played on a grid that's 3 squares by 3 squares.</p>
+                    <p>You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.</p>
+                    <p>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+                    <p>When all 9 squares are full, the game is over.</p>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section id="StartGame">
+            <div class="container">
+                <div style="color:black;">
+                    <center>
+                        <h1 style=margin-bottom:3%;margin-top:0%;> Welcome to Tic-Tac-Toe</h1><br>
+                        <canvas id="ttt"></canvas>
+                        <b style="font-size:24px;">
+                           <p id="message">Welcome to Tic-Tac-Toe!</p>
+                        </b>
+                        <script src="ttt.js"></script>
+                    </center>
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
